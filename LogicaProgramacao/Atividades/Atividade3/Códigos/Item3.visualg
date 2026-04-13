@@ -1,0 +1,33 @@
+algoritmo "Item3"
+
+var
+  A,N,i,soma: inteiro
+
+inicio
+
+soma<-0
+i<-0
+N<--5
+
+escreval("Digite o valor de A: ")
+leia(A)
+
+enquanto(n<=0) faca
+escreval("Digite o valor de N: ")
+leia(N)
+
+se (n<=0) entao
+escreval("Digite um valor positivo")
+fimse
+fimenquanto
+
+
+
+enquanto(i<N) faca
+A<-A+i
+soma<-soma+A
+i<-i+1
+fimenquanto
+
+escreva(soma)
+fimalgoritmo

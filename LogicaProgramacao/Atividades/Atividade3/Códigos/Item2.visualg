@@ -1,0 +1,39 @@
+algoritmo "Item2"
+
+var
+  N,X,numeroPos,numeroNeg: inteiro
+  media,percPos,percNeg,nota,soma:real
+
+inicio
+
+media<-0
+numeroPos<-0
+numeroNeg<-0
+soma<-0
+
+escreva("Digite o número de notas: ")
+leia(N)
+
+PARA X de 1 ate N passo 1 faca
+escreval("Digite a nota: ")
+leia(nota)
+
+soma<-soma+nota
+
+se (nota>=0) entao
+numeroPos<-numeroPos+1
+senao
+numeroNeg<-numeroNeg+1
+fimse
+
+fimpara
+
+media<-soma/N
+percPos<-(numeroPos*100)/N
+percNeg<-(numeroNeg*100)/N
+
+escreval("A média das notas é: ",media)
+escreval("O número de valores positivos é ", numeroPos," o que corresponde a ",percPos,"%")
+escreval("O número de valores negativos é ", numeroNeg," o que corresponde a ",percNeg,"%")
+
+fimalgoritmo

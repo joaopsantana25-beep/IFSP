@@ -1,0 +1,28 @@
+algoritmo "Item1"
+
+var
+  id: inteiro
+
+inicio
+
+escreva("Digite o número do aluno: ")
+leia(id)
+
+escolha (id)
+caso 1 
+escreval("Nome: Luiz Silva")
+escreval("Idade: ",15*365," dias")
+caso 2
+escreval("Nome: Carlos Santos")
+escreval("Idade: ",19*365," dias")
+caso 3
+escreval("Nome: Ana Oliveira")
+escreval("Idade: ",25*365," dias")
+caso 4
+escreval("Nome: Thiago Ferreira")
+escreval("Idade: ",28*365," dias")
+outrocaso
+escreval("Dado Inválido")
+fimescolha
+
+fimalgoritmo
